@@ -12,7 +12,7 @@ document.getElementById("signupForm").addEventListener("submit", async function(
     const responseMessage = document.getElementById("responseMessage");
   
     try {
-      const response = await fetch("https://gold-extinct-sawfish.cyclic.app/doctor/signup", {
+      const response = await fetch("https://pleasant-comfort-production-f2ef.up.railway.app/doctor/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
